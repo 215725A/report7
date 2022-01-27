@@ -38,10 +38,6 @@ int main()
     int scores[SIZE] = {0, 60, 70, 100, 90};
     printf("データサイズ: %d\n",SIZE);
     data_sort(scores, SIZE);
-    
-    int scores2[SIZE] = {100, 60, 70, 100, 90};
-    printf("データサイズ: %d\n",SIZE);
-    data_sort(scores2, SIZE);
 
     const int OTHER_SIZE = 6;
     printf("データサイズ: %d\n",OTHER_SIZE);
