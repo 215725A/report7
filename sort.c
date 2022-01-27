@@ -36,14 +36,17 @@ int main()
 {
     const int SIZE = 5; //定数として配列のサイズを宣言
     int scores[SIZE] = {0, 60, 70, 100, 90};
+    printf("データサイズ: %d\n",SIZE);
     data_sort(scores, SIZE);
-    printf("----------\n");
+    
     int scores2[SIZE] = {100, 60, 70, 100, 90};
+    printf("データサイズ: %d\n",SIZE);
     data_sort(scores2, SIZE);
-    printf("----------\n");
-    const int SIZE2 = 6;
-    int scores3[SIZE2] = {100, 60, 70, 100, 90, 80};
-    data_sort(scores3, SIZE2);
+
+    const int OTHER_SIZE = 6;
+    printf("データサイズ: %d\n",OTHER_SIZE);
+    int scores3[OTHER_SIZE] = {100, 60, 70, 100, 90, 80};
+    data_sort(scores3, OTHER_SIZE);
 
     return 0;
 }
